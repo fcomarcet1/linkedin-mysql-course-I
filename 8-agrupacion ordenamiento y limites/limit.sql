@@ -1,0 +1,11 @@
+SELECT * FROM users
+GROUP BY createtAt
+LIMIT 10;
+
+SELECT * FROM users
+GROUP BY createtAt
+LIMIT 3, 4;
+
+SELECT * FROM users
+GROUP BY createtAt
+LIMIT 3 OFFSET 3;

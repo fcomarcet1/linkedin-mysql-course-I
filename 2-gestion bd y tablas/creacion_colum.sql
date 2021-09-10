@@ -1,0 +1,9 @@
+ALTER TABLE test
+    ADD COLUMN description VARCHAR(100) NOT NULL
+    AFTER id;
+
+ALTER TABLE test
+    CHANGE COLUMN description LONGTEXT NULL DEFAULT NULL;
+
+ALTER TABLE test
+    DROP COLUMN description;

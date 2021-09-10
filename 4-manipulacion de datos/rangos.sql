@@ -1,0 +1,8 @@
+SELECT * from lerele
+WHERE price BETWEEN 250 AND 500;
+
+SELECT * from lerele
+WHERE createdAt BETWEEN '2020-05-14' AND '2020-06-15';
+
+SELECT * from lerele
+WHERE createdAt NOT BETWEEN '2020-05-14' AND '2020-06-15';

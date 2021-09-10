@@ -1,0 +1,7 @@
+ALTER TABLE test
+    CHANGE COLUMN `idProducto` `id` INT(10) NOT NULL,
+    ADD PRIMARY KEY (`id`);
+
+ALTER TABLE test
+    CHANGE COLUMN `idProducto` `id` INT(10) NOT NULL,
+    DROP PRIMARY KEY ;
